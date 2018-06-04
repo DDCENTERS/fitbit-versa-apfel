@@ -1,5 +1,17 @@
 # fitbit-versa-apfel
-a fitbit versa watchface
+A fitbit versa clockface inspired by the Human Interface Guidelines.
+
+[Features]
+
+★ Digital clock
+★ Day of the week and date
+★ Three activity stats
+★ Weather icon and temperature
+★ Heartbeat monitor
+★ Battery indicator
+
+The weather indicator requires the smartphone to be paired and having access to the internet.
+Weather information is requested from the openweathermap API.
 
 #
 <h1 align="center">
