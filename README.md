@@ -13,16 +13,10 @@ If you like what I do feel free to support me with a donation!
 
 <br>
 <p align="center">
-	<a href="https://yourdonation.rocks"><img width="185" src="images/badge.svg" alt="Badge"></a>
+	<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FT39CVVHGJNW2"><img width="185" src="images/badge.svg" alt="Badge"></a>
 	<br><br>
-	<b>🙌 Use <a href="https://yourdonation.rocks">donations</a> to help support <b>your</b> projects! 🙌</b>
+	<b>🙌 Support me with a donation! 🙌</b>
 </p>
 <br>
 
 ---
-
-<p align="center">
-	<sub>Visit <a href="https://yourdonation.rocks"><code>yourdonation.rocks</code></a> for a live demo. Check out my <a href="https://nikolaskama.me">blog</a> and follow me on <a href="https://twitter.com/nikolaskama">Twitter</a>.</sub>
-</p>
-
-<br>
