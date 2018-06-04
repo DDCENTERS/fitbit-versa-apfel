@@ -18,3 +18,11 @@ If you like what I do feel free to support me with a donation!
 	<b>🙌 Use <a href="https://yourdonation.rocks">donations</a> to help support <b>your</b> projects! 🙌</b>
 </p>
 <br>
+
+---
+
+<p align="center">
+	<sub>Visit <a href="https://yourdonation.rocks"><code>yourdonation.rocks</code></a> for a live demo. Check out my <a href="https://nikolaskama.me">blog</a> and follow me on <a href="https://twitter.com/nikolaskama">Twitter</a>.</sub>
+</p>
+
+<br>
