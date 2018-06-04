@@ -4,7 +4,8 @@ A fitbit versa clockface inspired by the Human Interface Guidelines.
 
 ![Screen Shot](screenshot.png)
 
-[Features]
+
+# Features
 
 ★ Digital clock
 
