@@ -4,10 +4,15 @@ A fitbit versa clockface inspired by the Human Interface Guidelines.
 [Features]
 
 ★ Digital clock
+
 ★ Day of the week and date
+
 ★ Three activity stats
+
 ★ Weather icon and temperature
+
 ★ Heartbeat monitor
+
 ★ Battery indicator
 
 The weather indicator requires the smartphone to be paired and having access to the internet.
