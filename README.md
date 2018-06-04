@@ -1,7 +1,7 @@
 # fitbit-versa-apfel
 a fitbit versa watchface
 
-# Donation
+#
 <h1 align="center">
 	<img width="250" src="images/heart3.png" alt="Donations"><p>
 </h1>
