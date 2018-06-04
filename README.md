@@ -1,6 +1,9 @@
 # fitbit-versa-apfel
 A fitbit versa clockface inspired by the Human Interface Guidelines.
 
+
+![Screen Shot](screenshot.png)
+
 [Features]
 
 ★ Digital clock
