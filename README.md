@@ -13,7 +13,7 @@ If you like what I do feel free to support me with a donation!
 
 <br>
 <p align="center">
-	<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FT39CVVHGJNW2"><img width="185" src="images/badge.svg" alt="Badge"></a>
+	<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FT39CVVHGJNW2"><img width="185" src="images/badge.png" alt="Badge"></a>
 	<br><br>
 	<b>🙌 Support me with a donation! 🙌</b>
 </p>
