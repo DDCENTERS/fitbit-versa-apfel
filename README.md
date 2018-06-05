@@ -14,24 +14,7 @@
 </div>
 
 
-**Nerd Fonts** is a project that patches developer targeted fonts with a high number of glyphs (icons). Specifically to add a high number of extra glyphs from popular 'iconic fonts' such as [Font Awesome ➶][font-awesome], [Devicons ➶][vorillaz-devicons], [Octicons ➶][octicons], and [others](#glyph-sets).
-
-The following Sankey flow diagram shows the current glyph sets included:
-
-
-
-
-
-
-
-
-
-
-
-
-# fitbit-versa-apfel
-A fitbit versa clockface inspired by the Human Interface Guidelines.
-
+**Watchface Apfel** is a fitbit versa watchface inspired by the Human Interface Guidelines.
 
 ![Screen Shot](images/screenshot.png)
 
