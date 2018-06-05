@@ -66,3 +66,23 @@ Weather information is requested from the openweathermap API.
 <br>
 
 ---
+
+
+[vim-devicons]:https://github.com/ryanoasis/vim-devicons "VimDevIcons Vim Plugin (external link) ➶"
+[vorillaz-devicons]:https://vorillaz.github.io/devicons/
+[font-awesome]:https://github.com/FortAwesome/Font-Awesome
+[font-awesome-extension]:https://github.com/AndreLZGava/font-awesome-extension
+[font-material-design-icons]:https://github.com/Templarian/MaterialDesign
+[font-weather]:https://github.com/erikflowers/weather-icons
+[octicons]:https://github.com/primer/octicons
+[font-linux]:https://github.com/Lukas-W/font-logos
+[gabrielelana-pomicons]:https://github.com/gabrielelana/pomicons
+[Seti-UI]:https://atom.io/themes/seti-ui
+[ryanoasis-powerline-extra-symbols]:https://github.com/ryanoasis/powerline-extra-symbols
+[wiki]:https://github.com/ryanoasis/nerd-fonts/wiki
+[wiki-project-purpose]:https://github.com/ryanoasis/nerd-fonts/wiki/Project-Purpose
+[repo]:https://github.com/ryanoasis/nerd-fonts
+[gitter]:https://gitter.im/ryanoasis/nerd-fonts
+[code-climate]:https://codeclimate.com/github/ryanoasis/nerd-fonts
+[travis-ci]:https://travis-ci.org/ryanoasis/nerd-fonts
+[twitter-intent]:https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fryanoasis%2Fnerd-fonts&via=%40nerdfonts&text=Nerd%20Fonts%20-%20Iconic%20font%20aggregator%2C%20collection%2C%20and%20patcher&hashtags=iconfont%20font%20github
