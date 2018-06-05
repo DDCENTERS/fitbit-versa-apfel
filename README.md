@@ -8,7 +8,7 @@
 <div align="center">
 
 
-[![GitHub release][img-version-badge]][repo] <a href="#patched-fonts" title=""><img src="https://raw.githubusercontent.com/wiki/ryanoasis/nerd-fonts/images/faux-shield-badge-os-logos.svg?sanitize=true" alt="Nerd Fonts - OS Support"></a>
+[![GitHub license](https://img.shields.io/github/license/sw1ft-code/fitbit-versa-apfel.svg?style=for-the-badge)](https://github.com/sw1ft-code/fitbit-versa-apfel/blob/master/LICENSE)
 
 </div>
 
@@ -66,7 +66,3 @@ Weather information is requested from the openweathermap API.
 <br>
 
 ---
-
-[repo]:https://github.com/ryanoasis/nerd-fonts
-[badge-version]:https://badge.fury.io/gh/ryanoasis%2Fnerd-fonts
-[img-version-badge]:https://img.shields.io/github/release/ryanoasis/nerd-fonts.svg?style=for-the-badge
