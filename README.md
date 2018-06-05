@@ -8,6 +8,7 @@
 <div align="center">
 
 
+[![GitHub issues](https://img.shields.io/github/issues/sw1ft-code/fitbit-versa-apfel.svg?style=for-the-badge)](https://github.com/sw1ft-code/fitbit-versa-apfel/issues)
 [![GitHub license](https://img.shields.io/github/license/sw1ft-code/fitbit-versa-apfel.svg?style=for-the-badge)](https://github.com/sw1ft-code/fitbit-versa-apfel/blob/master/LICENSE)
 
 </div>
