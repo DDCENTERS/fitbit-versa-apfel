@@ -39,4 +39,4 @@
 The weather indicator requires the smartphone to be paired and having access to the internet.
 Weather information is requested from the openweathermap API.
 
----
+#
