@@ -1,8 +1,8 @@
 <h1 align="center">
-  <img src="images/nerd-fonts-logo.svg" alt="Nerd Fonts Logo" />
+  <img src="images/nerd-fonts-logo.svg" alt="Watchface Apfel" />
 </h1>
 <h2 align="center">
-  <img alt="Iconic font aggregator, collection, and patcher" src="images/project-subtitle-phrase.svg">
+  <img alt="a fitbit versa watchface" src="images/project-subtitle-phrase.svg">
 </h2>
 
 <div align="center">
