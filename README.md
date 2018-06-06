@@ -12,7 +12,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/sw1ft-code/fitbit-versa-apfel.svg?style=for-the-badge)](https://github.com/sw1ft-code/fitbit-versa-apfel/issues)
 [![GitHub license](https://img.shields.io/github/license/sw1ft-code/fitbit-versa-apfel.svg?style=for-the-badge)](https://github.com/sw1ft-code/fitbit-versa-apfel/blob/master/LICENSE)
 [![Contact](https://img.shields.io/badge/CONTACT-%F0%9F%93%A7-yellow.svg?style=for-the-badge)](mailto:xxx@test)
-[![Donation](https://img.shields.io/badge/DONATE-%E2%9D%A4%EF%B8%8F-red.svg?style=for-the-badge)](paypal.me/sw1ftcode)
+[![Donation](https://img.shields.io/badge/DONATE-%E2%9D%A4%EF%B8%8F-red.svg?style=for-the-badge)](https://paypal.me/sw1ftcode)
 
 </div>
 
