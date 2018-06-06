@@ -36,7 +36,7 @@
 
 ★ Battery indicator
 
-#Settings
+# Settings
 
 In the settings menu you have the possibility to customize the watchface to your personal taste.
 
