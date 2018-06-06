@@ -12,7 +12,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/sw1ft-code/fitbit-versa-apfel.svg?style=for-the-badge)](https://github.com/sw1ft-code/fitbit-versa-apfel/issues)
 [![GitHub license](https://img.shields.io/github/license/sw1ft-code/fitbit-versa-apfel.svg?style=for-the-badge)](https://github.com/sw1ft-code/fitbit-versa-apfel/blob/master/LICENSE)
 [![Contact](https://img.shields.io/badge/CONTACT-%F0%9F%93%A7-yellow.svg?style=for-the-badge)](mailto:xxx@test)
-[![Donation](https://img.shields.io/badge/DONATE-%E2%9D%A4%EF%B8%8F-red.svg?style=for-the-badge)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FT39CVVHGJNW2)
+[![Donation](https://img.shields.io/badge/DONATE-%E2%9D%A4%EF%B8%8F-red.svg?style=for-the-badge)](paypal.me/sw1ftcode)
 
 </div>
 
@@ -35,6 +35,19 @@
 ★ Heartbeat monitor
 
 ★ Battery indicator
+
+#Settings
+
+In the settings menu you have the possibility to customize the watchface to your personal taste.
+
+You can change the color theme in the settings to a single color.
+[insert screen of settings]
+
+Select which activities are displayed.
+[inser screen of settings]
+
+Choose if you want to use your gps location or a specific city for weather updates.
+[insert screen of settings]
 
 The weather indicator requires the smartphone to be paired and having access to the internet.
 Weather information is requested from the openweathermap API.
