@@ -54,6 +54,10 @@ Select which activities are displayed.
 Choose if you want to use your gps location or a specific city for weather updates.
 [insert screen of settings]
 
+<p align="center">
+  <img src="screenshots/screenshot_settings.png" width="300" height="auto" title="Settings">
+</p>
+
 The weather indicator requires the smartphone to be paired and having access to the internet.
 Weather information is requested from the openweathermap API.
 
