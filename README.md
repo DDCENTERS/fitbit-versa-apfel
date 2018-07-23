@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="images/nerd-fonts-logo.svg" alt="Watchface Apfel" />
+  <img src="images/nerd-fonts-logo.svg" alt="Clockface Apfel" />
 </h1>
 <h2 align="center">
   <img alt="a fitbit versa watchface" src="images/project-subtitle-phrase.svg">
@@ -17,7 +17,7 @@
 </div>
 
 <p align="center">
-  <b>Watchface Apfel</b> is a fitbit versa watchface inspired by the Human Interface Guidelines.
+  <b>Clockface Apfel</b> is a fitbit versa watchface inspired by the Human Interface Guidelines.
 </p>
 
 <p align="center">
