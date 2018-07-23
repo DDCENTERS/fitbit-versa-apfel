@@ -45,7 +45,7 @@
 
 In the settings menu you have the possibility to customize the watchface to your personal taste.
 
-<p align="center">
+<p align="left">
   <img src="screenshots/screenshot_settings.png" width="300" height="auto" title="Settings">
 </p>
 
