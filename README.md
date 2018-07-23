@@ -50,6 +50,7 @@ In the settings menu you have the possibility to customize the watchface to your
 </p>
 
 The weather indicator requires the smartphone to be paired and having access to the internet.
+
 Weather information is requested from the openweathermap API.
 
 #
