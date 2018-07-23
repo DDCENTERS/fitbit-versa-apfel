@@ -45,15 +45,6 @@
 
 In the settings menu you have the possibility to customize the watchface to your personal taste.
 
-You can change the color theme in the settings to a single color.
-[insert screen of settings]
-
-Select which activities are displayed.
-[inser screen of settings]
-
-Choose if you want to use your gps location or a specific city for weather updates.
-[insert screen of settings]
-
 <p align="center">
   <img src="screenshots/screenshot_settings.png" width="300" height="auto" title="Settings">
 </p>
