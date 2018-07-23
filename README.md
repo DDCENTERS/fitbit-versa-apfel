@@ -17,7 +17,7 @@
 </div>
 
 <p align="center">
-  **Watchface Apfel** is a fitbit versa watchface inspired by the Human Interface Guidelines.
+  <b>Watchface Apfel</b> is a fitbit versa watchface inspired by the Human Interface Guidelines.
 </p>
 
 <p align="center">
