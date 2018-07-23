@@ -23,7 +23,9 @@
 <img src="screenshots/screenshot_red.png" width="256" height="256" title="Screenshot Red">
 <img src="screenshots/screenshot_blue.png" width="256" height="256" title="Screenshot Blue">
 
-![Screenshot settings](screenshots/screenshot_settings.png)
+<p align="center">
+  <img src="screenshots/screenshot_settings.png" width="256" height="256" >
+</p>
 
 
 # Features
