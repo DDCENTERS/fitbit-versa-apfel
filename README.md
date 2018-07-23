@@ -1,8 +1,8 @@
 <h1 align="center">
-  <img src="images/nerd-fonts-logo.svg" alt="Clockface Apfel" />
+  <img src="images/project-logo.svg" alt="Clockface Apfel" />
 </h1>
 <h2 align="center">
-  <img alt="a fitbit versa watchface" src="images/project-subtitle-phrase.svg">
+  <img alt="a fitbit versa watchface" src="images/project-subtitle.svg">
 </h2>
 
 <div align="center">
