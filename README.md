@@ -19,9 +19,9 @@
 
 **Watchface Apfel** is a fitbit versa watchface inspired by the Human Interface Guidelines.
 <p align="center">
-  <img src="screenshots/screenshot_default.png" width="256" height="256" title="Screenshot Default">
-  <img src="screenshots/screenshot_red.png" width="256" height="256" title="Screenshot Red">
-  <img src="screenshots/screenshot_blue.png" width="256" height="256" title="Screenshot Blue">
+  <img src="screenshots/screenshot_default.png" width="256" height="256" title="Default-Theme">
+  <img src="screenshots/screenshot_red.png" width="256" height="256" title="Red-Theme">
+  <img src="screenshots/screenshot_blue.png" width="256" height="256" title="Blue-Theme">
 </p>
 
 
