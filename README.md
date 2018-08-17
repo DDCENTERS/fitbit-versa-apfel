@@ -53,4 +53,6 @@ The weather indicator requires the smartphone to be paired and having access to 
 
 Weather information is requested from the openweathermap API.
 
+You need to register on https://openweathermap.org/appid for a free API-Key and add it in the watchface settings page.
+
 #
