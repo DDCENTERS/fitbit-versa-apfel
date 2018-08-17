@@ -35,7 +35,7 @@
 
 ★ Activity stats: calories, distance and steps
 
-★ Weather icon and temperature (free api key required)
+★ Weather icon and temperature (<font color=red>free api key required</font>)
 
 ★ Heartbeat monitor
 
