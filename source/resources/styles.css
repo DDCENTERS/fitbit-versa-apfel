@@ -1,0 +1,293 @@
+/*###################*/
+/*     WATCHFACE     */
+/*###################*/
+.watchface {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%;
+  viewport-fill: none;
+}
+/*###################*/
+/* TOP - CLOCK & DATE*/
+/*###################*/
+.container-clock {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 25%;
+  fill: none;
+}
+
+.container-clock text {
+  /*font-family: Seville-Regular;*/
+  font-family: Colfax-Regular;
+  text-anchor: middle;
+  text-length: 32;
+}
+
+.container-day text {
+  /*font-family: Seville-Bold;*/
+  font-family: Colfax-Regular;
+}
+
+/*
+.container-clock-time {
+  font-size: 70;
+  x: 68%;
+  y: 25%;
+  fill: white;
+}
+*/
+
+.container-hour text {
+  text-anchor: end;
+}
+
+.container-clock-time-hour {
+  font-size: 70;
+  x: 61%;
+  y: 25%;
+  fill: white;
+}
+
+.container-clock-time-dot {
+  font-size: 70;
+  x: 64%;
+  y: 22%;
+  fill: white;
+}
+
+.container-minute text {
+  text-anchor: start;
+}
+
+.container-clock-time-minute {
+  font-size: 70;
+  x: 67%;
+  y: 25%;
+  fill: white;
+}
+
+.container-clock-day {
+  font-size: 18;
+  x: 50;
+  y: 13%;
+}
+
+.container-clock-date {
+  font-size: 38;
+  x: 50;
+  y: 24%+3;
+  fill: white;
+}
+
+/*###################*/
+/* CENTER - ACTIVITY */
+/*###################*/
+.container-activity {
+  x: 0;
+  y: 25%;
+  width: 100%;
+  height: 50%;
+  fill: none;
+}
+
+.container-activity text {
+  /*font-family: Seville-Regular;*/
+  text-anchor: middle;
+  text-length: 32;
+
+}
+
+.activity-text {  
+  x: 0;
+  y: 30%;
+  width: 40%;
+  height: 45%;
+  fill: none;
+}
+
+.activity-text text {
+  /*font-family: Seville-Bold;*/
+  font-family: Colfax-Regular;
+  font-size: 24;
+  text-anchor: start;
+}
+
+.activity-text-top {
+  width: 60%;
+  x: 20;
+  y: 46%;
+  opacity: 0.86;
+}
+
+.activity-text-center {
+  x: 20;
+  y: 56%;
+}
+
+.activity-text-bottom {
+  x: 20;
+  y: 66%;
+}
+
+.activity-values {  
+  x: 40%;
+  y: 40%;
+  width: 60%;
+  height: 40%;
+  fill: none;
+}
+
+.activity-values text {
+  text-anchor: start;
+  font-size: 24;
+}
+
+.activity-values-top {
+  x: 40%;
+  y: 46%;
+  fill: white;
+}
+
+.activity-values-center {
+  x: 40%;
+  y: 56%;
+  fill: white;  
+}
+
+.activity-values-bottom {
+  x: 40%;
+  y: 66%;
+  fill: white;
+}
+/*###################*/
+/*  BOTTOM - ICONS   */
+/*###################*/
+.container-icons {
+  x: 0;
+  y: 75%;
+  width: 100%;
+  height: 25%;
+  fill: none;
+}
+
+.container-icons text {
+  /*font-family: Seville-Regular;*/
+  font-family: Colfax-Regular;
+  text-anchor: middle;
+  text-length: 32;
+}
+
+.container-temp text {
+  /*font-family: Seville-Regular*/
+  font-family: Colfax-Regular;
+}
+
+.container-bpm text {
+  /*font-family: Seville-Bold;*/
+  font-family: Colfax-Regular;
+}
+
+.icons-weather {
+  width: 38;
+  height: 30;
+  x: 13%;
+  y: 77%;
+}
+
+.container-icons-left {
+  font-size: 22;
+  x: 14%;
+  y: 95%;
+  fill: white;
+  opacity: 0.6;
+}
+
+.container-icons-center{
+  font-size: 22;
+  x: 50%;
+  y: 87%;
+  fill: white;
+}
+
+.container-icons-bpm {
+  font-size: 18;
+  x: 50%;
+  y: 95%;
+}
+
+.container-icons-right {
+  font-size: 20;
+  x: 84%;
+  y: 90%-1;
+  fill: white;
+}
+
+.arc-battery-background {
+  fill: fb-extra-dark-gray;
+  opacity: 0.4;
+  arc-width: 5;
+  x: 76%;
+  y: 79%;
+  width: 50;
+  height: 50;
+}
+
+#ARC {
+  fill: white;
+  arc-width: 5;
+  sweep-angle: 0;
+  x: 76%;
+  y: 79%;
+  width: 50;
+  height: 50;
+}
+/*###################*/
+/*  COLORS - ICONS   */
+/*###################*/
+.pink {
+  fill: #fa114f;
+  opacity: 0.83;
+}
+ 
+.red {
+  fill: #ff3b30;
+  opacity: 0.83;
+}
+ 
+.orange {
+  fill: #ff9500;
+  opacity: 0.85;
+}
+ 
+.yellow {
+  fill: #ffe620;
+  opacity: 0.86;
+}
+ 
+.green {
+  fill: #04de71;
+  opacity: 0.86;
+}
+ 
+.teal {
+  fill: #00f5ea;
+  opacity: 0.85;
+}
+ 
+.blue-light {
+  fill: #5ac8fa;
+  opacity: 0.85;
+}
+ 
+.blue {
+  fill: #2094fa;
+  opacity: 0.83;
+}
+ 
+.purple {
+  fill: #787aff;
+  opacity: 0.80;
+}
