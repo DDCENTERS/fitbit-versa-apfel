@@ -1,10 +1,18 @@
 {
+  "name": "watchface-versa-apfel",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.2",
+    "@fitbit/sdk-cli": "^1.0.1"
+  },
   "fitbit": {
-    "appUUID": "b2aa6501-58d9-4a1e-bb44-8c6dde94b3da",
+    "appUUID": "57f62034-91e0-42f8-bdf2-a078e1cb3b41",
     "appType": "clockface",
     "appDisplayName": "Apfel",
     "iconFile": "resources/icon.png",
-    "wipeColor": "",
+    "wipeColor": "#ffffff",
     "requestedPermissions": [
       "access_heart_rate",
       "access_activity",
@@ -13,12 +21,13 @@
       "access_user_profile"
     ],
     "buildTargets": [
+      "higgs",
       "meson"
     ],
-    "i18n": {
-      "en": {
-        "name": "Apfel"
-      }
-    }
+    "i18n": {}
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
   }
 }
