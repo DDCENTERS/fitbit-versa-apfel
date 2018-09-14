@@ -24,14 +24,18 @@ function mySettings(props) {
       </Section>
       <Section
         title={<Text bold align="center">weather settings</Text>}>
+        <Toggle
+          label="replace progress widget with weather"
+          settingsKey="weatherToggle"
+        />
         <TextInput
           label="API key"
           placeholder="register on 'openweathermap.org/appid'"
           settingsKey="apiKey"
         />
         <Toggle
-          settingsKey="weatherToggle"
           label="Custom city instead of gps"
+          settingsKey="locationToggle"
         />
         <TextInput
           label="City"

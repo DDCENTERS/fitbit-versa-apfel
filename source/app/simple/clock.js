@@ -9,6 +9,9 @@ var STEPS = document.getElementById("STEPS_CLR");
 var DIST = document.getElementById("DIST_CLR");
 var CALS = document.getElementById("CALS_CLR");
 var BPM = document.getElementById("BPM");
+var ARCCALS = document.getElementById("ARC-CALS");
+var ARCDIST = document.getElementById("ARC-DIST");
+var ARCSTEPS = document.getElementById("ARC-STEPS");
 
 var dateFormat, clockCallback;
 var COLOR = "colored";
@@ -45,6 +48,9 @@ function setColor(COLOR) {
     STEPS.style.fill = "#5ac8fa"; //blue-light
     DIST.style.fill = "#04de71"; //green
     CALS.style.fill = "#fa114f"; //pink
+    ARCSTEPS.style.fill = "#5ac8fa"; //green
+    ARCDIST.style.fill = "#04de71"; //pink
+    ARCCALS.style.fill = "#fa114f"; //red
     BPM.style.fill = "#ff3b30"; //red
   }else{
     console.log("changing theme color to "+ThemeARRAY[COLOR]);
@@ -52,6 +58,9 @@ function setColor(COLOR) {
     STEPS.style.fill = COLOR;
     DIST.style.fill = COLOR;
     CALS.style.fill = COLOR;
+    ARCSTEPS.style.fill = COLOR;
+    ARCDIST.style.fill = COLOR;
+    ARCCALS.style.fill = COLOR;
     BPM.style.fill = COLOR;
   }
 }

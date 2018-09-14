@@ -18,12 +18,16 @@
     </rect>
   </rect>
   <rect class="container-icons">
+    <arc id= "ARC-PROGRESS" class="arc-activity-background" />
+    <arc id="ARC-CALS" />
+    <arc id="ARC-DIST" />
+    <arc id="ARC-STEPS" />
     <image id="WEATHER" href="" class="icons-weather"></image>
     <rect class="container-temp"><text id="TEMP" class="container-icons-left"></text></rect>
     <text id="HRM" class="container-icons-center">--</text>
     <rect class="container-bpm"><text id="BPM" class="container-icons-bpm red">BPM</text></rect>
     <text id="BATTERY" class="container-icons-right"></text>
     <arc class="arc-battery-background" />
-    <arc id="ARC" />
+    <arc id="ARC-BAT" />
   </rect>
 </svg>

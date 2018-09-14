@@ -16,6 +16,7 @@ var settingCallback;
 var customColor = "colored";
 var customCity = "gps";
 var customApiKey = "";
+var weatherWidget = false;
 var settings = {};
 
 export function initialize(callback) {
@@ -46,8 +47,14 @@ function checkSettings(data) {
   }else{
     customColor = "colored";
   }
-  
+
   if (data.weatherToggle) {
+    weatherWidget = true;
+  }else{
+    weatherWidget = false;
+  }
+  
+  if (data.locationToggle) {
     customCity = data.customCity.name;
   }else{
     customCity = "gps";
@@ -60,7 +67,8 @@ function checkSettings(data) {
   settingCallback({
    "color" : customColor,
    "city" : customCity,
-   "api" : customApiKey
+   "api" : customApiKey,
+   "weatherwidget" : weatherWidget
   });
 }
 

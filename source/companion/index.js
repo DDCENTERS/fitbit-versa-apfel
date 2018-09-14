@@ -3,7 +3,6 @@ import * as messaging from "messaging";
 import { settingsStorage } from "settings";
 
 ///////WEATHER
-//var API_KEY = "02391da190caaa19c26c13a5e7e4abe4";
 var URI = "https://api.openweathermap.org/data/2.5/weather"
 
 // Fetch the weather from OpenWeather
@@ -22,19 +21,27 @@ function queryOpenWeather(location, units, apikey) {
   .then(function (response) {
       response.json()
       .then(function(data) {
-        // We just want the current temperature
-        var weather = {
-          temperature: data["main"]["temp"],
-          id: data["weather"][0]["id"],
-          sunset: data["sys"]["sunset"],
-          sunrise: data["sys"]["sunrise"]
-        }
-        // Send the weather data to the device
-        returnWeatherData(weather);
+        if (data["main"]){
+          // We just want the current temperature
+          var weather = {
+            temperature: data["main"]["temp"],
+            id: data["weather"][0]["id"],
+            sunset: data["sys"]["sunset"],
+            sunrise: data["sys"]["sunrise"]
+          }
+          // Send the weather data to the device
+          returnWeatherData(weather);
+        }else if (data["cod"] == 401){
+          console.log('invalid API key');
+          return false;
+        }else{
+          console.log('invalid API response: '+data["cod"]+' - '+data["message"]);
+          return false;
+        }        
       });
   })
   .catch(function (err) {
-    console.log("Error fetching weather: " + err);
+    console.log('error fetching weather: ' + err);
   });
 }
 

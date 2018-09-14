@@ -10,6 +10,8 @@ var watchID, icon, weatherCallback, weatherLocation, temperatureUnit, apiKey;
 var CITY = "gps";
 var UNITS = "metric";
 var APIKEY = "";
+var ENABLED = false;
+
 if (units.temperature == "F") {
   UNITS = "imperial";
 }
@@ -74,7 +76,13 @@ var weatherIcons = {
 export function initialize(callback) {
   weatherCallback = callback;
   setupEvents();
-  start();
+  if (ENABLED){
+    start();
+  }
+}
+
+export function enableWidget(status) {
+  ENABLED = status;
 }
 
 export function setLocation(customCity) {
@@ -99,6 +107,11 @@ function fetchWeather() {
     }
     temperatureUnit = "&units="+UNITS;
     apiKey = APIKEY;
+
+    if (!apiKey){
+      console.log('missing api key');
+      return false;
+    }
     
     console.log("weatherLocation: "+weatherLocation);
     console.log("temperatureUnit: "+temperatureUnit);
@@ -152,6 +165,7 @@ function readWeather() {
     // Fetch weather when the connection opens
     fetchWeather();
   }
+
   // Listen for messages from the companion
   messaging.peerSocket.onmessage = function(evt) {
     if (evt.data) {
@@ -167,7 +181,7 @@ function readWeather() {
 
 function setupEvents() {
   display.addEventListener("change", function() {
-    if (display.on) {
+    if ((display.on) && ENABLED) {
       start();
     } else {
       stop();
