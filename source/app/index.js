@@ -72,7 +72,7 @@ function activityCallback(data) {
   STEPS.text = data["steps"];
   CALS.text = data["calories"];
   DIST.text = data["distance"];
-  console.log('widget: '+data['arc']);
+  //console.log('widget: '+data['arc']);
   if (data["arc"]){
     ARCPROGRESS.sweepAngle = 360;
     ARCCALS.sweepAngle = data.stepangle;

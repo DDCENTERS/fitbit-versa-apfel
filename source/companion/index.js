@@ -8,12 +8,12 @@ var URI = "https://api.openweathermap.org/data/2.5/weather"
 // Fetch the weather from OpenWeather
 function queryOpenWeather(location, units, apikey) {
   if (location == null){
-    console.log('no location for weather found');
+    //console.log('no location for weather found');
     return {}
   }
   
   if (apikey == ""){
-    console.log('no api key for weather found');
+    //console.log('no api key for weather found');
     return {}
   }
   
@@ -32,16 +32,16 @@ function queryOpenWeather(location, units, apikey) {
           // Send the weather data to the device
           returnWeatherData(weather);
         }else if (data["cod"] == 401){
-          console.log('invalid API key');
+          //console.log('invalid API key');
           return false;
         }else{
-          console.log('invalid API response: '+data["cod"]+' - '+data["message"]);
+          //console.log('invalid API response: '+data["cod"]+' - '+data["message"]);
           return false;
         }        
       });
   })
   .catch(function (err) {
-    console.log('error fetching weather: ' + err);
+    //console.log('error fetching weather: ' + err);
   });
 }
 
@@ -51,7 +51,7 @@ function returnWeatherData(data) {
     // Send a command to the device
     messaging.peerSocket.send(data);
   } else {
-    console.log("Error: Connection is not open");
+    //console.log("Error: Connection is not open");
   }
 }
 
@@ -66,7 +66,7 @@ messaging.peerSocket.onmessage = function(evt) {
 // Listen for the onerror event
 messaging.peerSocket.onerror = function(err) {
   // Handle any errors
-  console.log("Connection error: " + err.code + " - " + err.message);
+  //console.log("Connection error: " + err.code + " - " + err.message);
 }
 
 
@@ -90,6 +90,6 @@ function sendSettingData(data) {
   if (messaging.peerSocket.readyState === messaging.peerSocket.OPEN) {
     messaging.peerSocket.send(data);
   } else {
-    console.log("companion socket closed");
+    //console.log("companion socket closed");
   }
 }

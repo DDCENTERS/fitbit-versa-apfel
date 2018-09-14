@@ -109,13 +109,13 @@ function fetchWeather() {
     apiKey = APIKEY;
 
     if (!apiKey){
-      console.log('missing api key');
+      //console.log('missing api key');
       return false;
     }
     
-    console.log("weatherLocation: "+weatherLocation);
-    console.log("temperatureUnit: "+temperatureUnit);
-    console.log("apiKey: "+apiKey);
+    //console.log("weatherLocation: "+weatherLocation);
+    //console.log("temperatureUnit: "+temperatureUnit);
+    //console.log("apiKey: "+apiKey);
     // Send a command to the companion
     messaging.peerSocket.send({
       command: 'weather',
@@ -124,7 +124,7 @@ function fetchWeather() {
       api: apiKey
     });
   }else{
-    console.log('companion not reachable');
+    //console.log('companion not reachable');
   }
 }
 
@@ -175,7 +175,7 @@ function readWeather() {
   // Listen for the onerror event
   messaging.peerSocket.onerror = function(err) {
     // Handle any errors
-    console.log("Connection error: " + err.code + " - " + err.message);
+    //console.log("Connection error: " + err.code + " - " + err.message);
   }
 }
 

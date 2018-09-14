@@ -42,7 +42,7 @@ export function setTheme(customColor) {
 
 function setColor(COLOR) {
   if (COLOR === "colored"){
-    console.log("changing theme color to default");
+    //console.log("changing theme color to default");
     //RESTORE DEFAULT THEME
     DAY.style.fill = "#ff3b30"; //red
     STEPS.style.fill = "#5ac8fa"; //blue-light
@@ -53,7 +53,7 @@ function setColor(COLOR) {
     ARCCALS.style.fill = "#fa114f"; //red
     BPM.style.fill = "#ff3b30"; //red
   }else{
-    console.log("changing theme color to "+ThemeARRAY[COLOR]);
+    //console.log("changing theme color to "+ThemeARRAY[COLOR]);
     DAY.style.fill = COLOR;
     STEPS.style.fill = COLOR;
     DIST.style.fill = COLOR;
