@@ -26,6 +26,14 @@
   <img src="screenshots/screenshot_blue.png" width="256" height="256" title="Blue-Theme">
 </p>
 
+# New
+
+★ New progress widget (default on)
+
+★ Progress widget can be replaced by weather widget (settings)
+
+★ Battery optimization
+
 
 # Features
 
@@ -35,7 +43,9 @@
 
 ★ Activity stats: calories, distance and steps
 
-★ Weather icon and temperature (<b>free api key required</b>)
+★ Progress widget
+
+★ Weather widget (<b>free api key required</b>)
 
 ★ Heartbeat monitor
 
