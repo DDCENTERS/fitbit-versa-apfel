@@ -9,7 +9,7 @@
 
 
 [![Donation](https://img.shields.io/badge/DONATE-%E2%9D%A4%EF%B8%8F-red.svg?style=for-the-badge)](https://paypal.me/sw1ftcode)
-[![GitHub version](https://img.shields.io/badge/VERSION-1.0.3-blue.svg?style=for-the-badge)](https://github.com/sw1ft-code/fitbit-versa-apfel/releases)
+[![GitHub version](https://img.shields.io/badge/VERSION-1.1.0-blue.svg?style=for-the-badge)](https://github.com/sw1ft-code/fitbit-versa-apfel/releases)
 [![GitHub issues](https://img.shields.io/github/issues/sw1ft-code/fitbit-versa-apfel.svg?style=for-the-badge)](https://github.com/sw1ft-code/fitbit-versa-apfel/issues)
 [![GitHub license](https://img.shields.io/github/license/sw1ft-code/fitbit-versa-apfel.svg?style=for-the-badge)](https://github.com/sw1ft-code/fitbit-versa-apfel/blob/master/LICENSE)
 [![Contact](https://img.shields.io/badge/CONTACT-%F0%9F%93%A7-yellow.svg?style=for-the-badge)](mailto:sw1ft-code@outlook.com?subject=Fitbit%20Versa%20Apfel&body=)
@@ -26,6 +26,14 @@
   <img src="screenshots/screenshot_blue.png" width="256" height="256" title="Blue-Theme">
 </p>
 
+# New
+
+★ Progress widget (default on)
+
+★ Progress widget can be replaced by weather widget (settings)
+
+★ Battery optimization
+
 
 # Features
 
@@ -35,7 +43,9 @@
 
 ★ Activity stats: calories, distance and steps
 
-★ Weather icon and temperature (<b>free api key required</b>)
+★ Progress widget
+
+★ Weather widget (<b>free api key required</b>)
 
 ★ Heartbeat monitor
 
