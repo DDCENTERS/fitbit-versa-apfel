@@ -21,8 +21,8 @@
 </p>
 
 <p align="center">
+    <img src="screenshots/screenshot_progress.png" width="256" height="256" title="Default-Theme">
   <img src="screenshots/screenshot_default.png" width="256" height="256" title="Default-Theme">
-  <img src="screenshots/screenshot_red.png" width="256" height="256" title="Red-Theme">
   <img src="screenshots/screenshot_blue.png" width="256" height="256" title="Blue-Theme">
 </p>
 
