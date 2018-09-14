@@ -28,7 +28,7 @@
 
 # New
 
-★ New progress widget (default on)
+★ Progress widget (default on)
 
 ★ Progress widget can be replaced by weather widget (settings)
 
