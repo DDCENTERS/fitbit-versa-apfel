@@ -16,7 +16,7 @@ export function initialize(callback) {
 
 function getReading() {
   if (hrm.timestamp === lastReading || hrm.heartRate == null) {
-    heartRate = "63";
+    heartRate = "";
   } else {
     heartRate = hrm.heartRate;
   }
