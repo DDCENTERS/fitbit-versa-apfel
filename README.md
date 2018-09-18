@@ -21,16 +21,18 @@
 </p>
 
 <p align="center">
-    <img src="screenshots/screenshot_progress.png" width="256" height="256" title="Default-Theme with progress">
+  <img src="screenshots/screenshot_progress.png" width="256" height="256" title="Default-Theme with progress">
   <img src="screenshots/screenshot_weather.png" width="256" height="256" title="Default-Theme with weather">
   <img src="screenshots/screenshot_red.png" width="256" height="256" title="Custom-Theme red color">
 </p>
 
 # New
 
-★ Progress widget (default on)
+★ Progress widget
 
-★ Progress widget can be replaced by weather widget (settings)
+★ Progress widget can be replaced by weather widget
+
+★ Select individual activities to display
 
 ★ Battery optimization
 
@@ -41,7 +43,7 @@
 
 ★ Day of the week and date
 
-★ Activity stats: calories, distance and steps
+★ Activity widget (calories, distance, steps, activeminutes, floors)
 
 ★ Progress widget
 
@@ -56,7 +58,7 @@
 In the settings menu you have the possibility to customize the watchface to your personal taste.
 
 <p align="left">
-  <img src="screenshots/screenshot_settings_1.png" width="300" height="auto" title="Settings">
+  <img src="screenshots/screenshot_settings_1.png" width="300" height="auto" title="Settings"><br/>
   <img src="screenshots/screenshot_settings_2.png" width="300" height="auto" title="Settings">
 </p>
 
