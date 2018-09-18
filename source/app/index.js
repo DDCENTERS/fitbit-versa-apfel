@@ -83,9 +83,9 @@ function settingsCallback(data) {
   //console.log("debug: widget configuration loaded");
 
   //ACTIVITY
-  ACT_TEXT_TOP.text = ACT_TEXT[data.topactivity];
-  ACT_TEXT_MIDDLE.text = ACT_TEXT[data.middleactivity];
-  ACT_TEXT_BOTTOM.text = ACT_TEXT[data.bottomactivity];
+  ACT_TEXT_TOP.text = ACT_TEXT[data.topactivity]; ACT_VAL_TOP.text = "";
+  ACT_TEXT_MIDDLE.text = ACT_TEXT[data.middleactivity]; ACT_VAL_MIDDLE.text = "";
+  ACT_TEXT_BOTTOM.text = ACT_TEXT[data.bottomactivity]; ACT_VAL_BOTTOM.text = "";
   simpleActivity.setActivity(data.topactivity, data.middleactivity, data.bottomactivity);
   //console.log("debug: activity configuration loaded");
 }
