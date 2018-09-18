@@ -1,33 +1,33 @@
 <svg class="watchface">
   <rect class="container-clock">
-    <!-- <text id="CLOCK" class="container-clock-time"></text> -->
-    <rect class="container-hour"><text id="HOUR" class="container-clock-time-hour"></text></rect><text class="container-clock-time-dot">:</text><rect class="container-minute"><text id="MINUTE" class="container-clock-time-minute"></text></rect>
+    <rect class="container-time"><text id="TIME" class="container-clock-time"></text></rect>
     <rect class="container-day"><text id="DAY" class="container-clock-day red"></text></rect>
     <text id="DATE" class="container-clock-date"></text>
   </rect>
   <rect class="container-activity">
     <rect class="activity-text">
-      <text id="CALS_CLR" class="activity-text-top pink">CAL</text>
-      <text id="DIST_CLR" class="activity-text-center green">DIST</text>
-      <text id="STEPS_CLR" class="activity-text-bottom blue-light">STEPS</text>
+      <text id="ACTIVITY-TEXT-TOP" class="activity-text-top pink"></text>
+      <text id="ACTIVITY-TEXT-MIDDLE" class="activity-text-center green"></text>
+      <text id="ACTIVITY-TEXT-BOTTOM" class="activity-text-bottom blue-light"></text>
     </rect>
     <rect class="activity-values">
-      <text id="CALS" class="activity-values-top"></text>
-      <text id="DIST" class="activity-values-center"></text>
-      <text id="STEPS" class="activity-values-bottom"></text>
+      <text id="ACTIVITY-VALUE-TOP" class="activity-values-top"></text>
+      <text id="ACTIVITY-VALUE-MIDDLE" class="activity-values-center"></text>
+      <text id="ACTIVITY-VALUE-BOTTOM" class="activity-values-bottom"></text>
     </rect>
   </rect>
   <rect class="container-icons">
-    <arc id= "ARC-PROGRESS" class="arc-activity-background" />
-    <arc id="ARC-CALS" />
-    <arc id="ARC-DIST" />
-    <arc id="ARC-STEPS" />
+    <arc id= "PROGRESS-ARC" class="arc-activity-background" />
+    <arc id="ACTIVITY-ARC-OUTSIDE" />
+    <arc id="ACTIVITY-ARC-MIDDLE" />
+    <arc id="ACTIVITY-ARC-CENTER" />
     <image id="WEATHER" href="" class="icons-weather"></image>
     <rect class="container-temp"><text id="TEMP" class="container-icons-left"></text></rect>
-    <text id="HRM" class="container-icons-center">--</text>
-    <rect class="container-bpm"><text id="BPM" class="container-icons-bpm red">BPM</text></rect>
+    <text id="HRM" class="container-icons-center"></text>
+    <image id="HEART" href="icons/heart.png" class="icons-heart"></image>
+    <rect class="container-bpm"><text id="BPM" class="container-icons-bpm red">bpm</text></rect>
     <text id="BATTERY" class="container-icons-right"></text>
     <arc class="arc-battery-background" />
-    <arc id="ARC-BAT" />
+    <arc id="BATTERY-ARC" />
   </rect>
 </svg>

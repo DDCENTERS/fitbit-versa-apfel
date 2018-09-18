@@ -16,7 +16,7 @@ export function initialize(callback) {
 
 function getReading() {
   if (hrm.timestamp === lastReading || hrm.heartRate == null) {
-    heartRate = "--";
+    heartRate = "63";
   } else {
     heartRate = hrm.heartRate;
   }
@@ -43,7 +43,7 @@ function start() {
     hrm.start();
     getReading();
     //update hrm every second while display on 
-    watchID = setInterval(getReading, 1000);
+    watchID = setInterval(getReading, 3000);
   }
 }
 

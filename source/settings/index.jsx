@@ -5,7 +5,7 @@ function mySettings(props) {
         title={<Text bold align="center">color theme</Text>}>
         <Toggle
           settingsKey="colorToggle"
-          label="Custom color theme"
+          label="custom color theme"
         />
         <ColorSelect
           settingsKey="customColor"
@@ -23,26 +23,75 @@ function mySettings(props) {
         />
       </Section>
       <Section
-        title={<Text bold align="center">weather settings</Text>}>
-        <Toggle
-          label="replace progress widget with weather"
-          settingsKey="weatherToggle"
+        title={<Text bold align="center">activity settings</Text>}>
+        <Select
+          settingsKey="topActivity"
+          label="top activity"
+          selectViewTitle="choose top activity"
+          options={[
+            {name:"steps"},
+            {name:"calories"},
+            {name:"distance"},
+            {name:"activemin"},
+            {name:"elevation"}
+          ]}
         />
-        <TextInput
-          label="API key"
-          placeholder="register on 'openweathermap.org/appid'"
-          settingsKey="apiKey"
+        <Select
+          settingsKey="middleActivity"
+          label="middle activity"
+          selectViewTitle="choose middle activity"
+          options={[
+            {name:"steps"},
+            {name:"calories"},
+            {name:"distance"},
+            {name:"activemin"},
+            {name:"elevation"}
+          ]}
         />
-        <Toggle
-          label="Custom city instead of gps"
-          settingsKey="locationToggle"
-        />
-        <TextInput
-          label="City"
-          placeholder="e.g. zurich,ch"
-          settingsKey="customCity"
+        <Select
+          settingsKey="bottomActivity"
+          label="bottom activity"
+          selectViewTitle="choose bottom activity"
+          options={[
+            {name:"steps"},
+            {name:"calories"},
+            {name:"distance"},
+            {name:"activemin"},
+            {name:"elevation"}
+          ]}
         />
       </Section>
+      <Section
+        title={<Text bold align="center">weather settings</Text>}>
+        <Toggle
+          settingsKey="weatherToggle"
+          label="weather widget"
+        />
+        <TextInput
+          settingsKey="apiKey"
+          label="API key"
+          placeholder="register on 'openweathermap.org/appid'"
+          disabled={!(props.settings.weatherToggle === "true")}
+        />
+        <Toggle
+          settingsKey="locationToggle"
+          label="static location (no GPS)"
+        />
+        <TextInput
+          settingsKey="customCity"
+          label="city"
+          placeholder="e.g. zurich,ch"
+          disabled={!(props.settings.locationToggle === "true")}
+        />
+      </Section>
+      <Link source="https://github.com/sw1ft-code/fitbit-versa-apfel/blob/master/README.md">made by sw1ft-code</Link>
+      {/* TROUBLESHOOT - RESET SETTINGS
+      <Button
+        list
+        label="reset settings to default"
+        onClick={() => props.settingsStorage.clear()}
+      />
+      */}
     </Page>
   );
 }

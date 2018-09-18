@@ -5,13 +5,15 @@ import { days, months, monthsShort } from "./locales/en.js";
 import * as util from "./utils";
 
 var DAY = document.getElementById("DAY");
-var STEPS = document.getElementById("STEPS_CLR");
-var DIST = document.getElementById("DIST_CLR");
-var CALS = document.getElementById("CALS_CLR");
 var BPM = document.getElementById("BPM");
-var ARCCALS = document.getElementById("ARC-CALS");
-var ARCDIST = document.getElementById("ARC-DIST");
-var ARCSTEPS = document.getElementById("ARC-STEPS");
+
+var ACT_TEXT_TOP = document.getElementById("ACTIVITY-TEXT-TOP");
+var ACT_TEXT_MIDDLE = document.getElementById("ACTIVITY-TEXT-MIDDLE");
+var ACT_TEXT_BOTTOM = document.getElementById("ACTIVITY-TEXT-BOTTOM");
+
+var ACT_ARC_OUTSIDE = document.getElementById("ACTIVITY-ARC-OUTSIDE");
+var ACT_ARC_MIDDLE = document.getElementById("ACTIVITY-ARC-MIDDLE");
+var ACT_ARC_CENTER = document.getElementById("ACTIVITY-ARC-CENTER");
 
 var dateFormat, clockCallback;
 var COLOR = "colored";
@@ -45,23 +47,27 @@ function setColor(COLOR) {
     //console.log("changing theme color to default");
     //RESTORE DEFAULT THEME
     DAY.style.fill = "#ff3b30"; //red
-    STEPS.style.fill = "#5ac8fa"; //blue-light
-    DIST.style.fill = "#04de71"; //green
-    CALS.style.fill = "#fa114f"; //pink
-    ARCSTEPS.style.fill = "#5ac8fa"; //green
-    ARCDIST.style.fill = "#04de71"; //pink
-    ARCCALS.style.fill = "#fa114f"; //red
     BPM.style.fill = "#ff3b30"; //red
+
+    ACT_TEXT_TOP.style.fill = "#fa114f"; //pink
+    ACT_TEXT_MIDDLE.style.fill = "#04de71"; //green
+    ACT_TEXT_BOTTOM.style.fill = "#5ac8fa"; //blue-light
+
+    ACT_ARC_OUTSIDE.style.fill = "#fa114f"; //pink
+    ACT_ARC_MIDDLE.style.fill = "#04de71"; //green
+    ACT_ARC_CENTER.style.fill = "#5ac8fa"; //blue-light
   }else{
     //console.log("changing theme color to "+ThemeARRAY[COLOR]);
     DAY.style.fill = COLOR;
-    STEPS.style.fill = COLOR;
-    DIST.style.fill = COLOR;
-    CALS.style.fill = COLOR;
-    ARCSTEPS.style.fill = COLOR;
-    ARCDIST.style.fill = COLOR;
-    ARCCALS.style.fill = COLOR;
     BPM.style.fill = COLOR;
+
+    ACT_TEXT_TOP.style.fill = COLOR;
+    ACT_TEXT_MIDDLE.style.fill = COLOR;
+    ACT_TEXT_BOTTOM.style.fill = COLOR;
+    
+    ACT_ARC_OUTSIDE.style.fill = COLOR;
+    ACT_ARC_MIDDLE.style.fill = COLOR;
+    ACT_ARC_CENTER.style.fill = COLOR;
   }
 }
 

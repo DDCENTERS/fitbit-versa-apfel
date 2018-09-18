@@ -21,9 +21,9 @@
 </p>
 
 <p align="center">
-    <img src="screenshots/screenshot_progress.png" width="256" height="256" title="Default-Theme">
-  <img src="screenshots/screenshot_default.png" width="256" height="256" title="Default-Theme">
-  <img src="screenshots/screenshot_blue.png" width="256" height="256" title="Blue-Theme">
+    <img src="screenshots/screenshot_progress.png" width="256" height="256" title="Default-Theme with progress">
+  <img src="screenshots/screenshot_weather.png" width="256" height="256" title="Default-Theme with weather">
+  <img src="screenshots/screenshot_red.png" width="256" height="256" title="Custom-Theme red color">
 </p>
 
 # New
@@ -56,7 +56,8 @@
 In the settings menu you have the possibility to customize the watchface to your personal taste.
 
 <p align="left">
-  <img src="screenshots/screenshot_settings.png" width="300" height="auto" title="Settings">
+  <img src="screenshots/screenshot_settings_1.png" width="300" height="auto" title="Settings">
+  <img src="screenshots/screenshot_settings_2.png" width="300" height="auto" title="Settings">
 </p>
 
 The weather indicator requires the smartphone to be paired and having access to the internet.

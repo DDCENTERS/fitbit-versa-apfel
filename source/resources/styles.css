@@ -23,7 +23,6 @@
   /*font-family: Seville-Regular;*/
   font-family: Colfax-Regular;
   text-anchor: middle;
-  text-length: 32;
 }
 
 .container-day text {
@@ -31,40 +30,18 @@
   font-family: Colfax-Regular;
 }
 
-/*
-.container-clock-time {
-  font-size: 70;
-  x: 68%;
-  y: 25%;
-  fill: white;
-}
-*/
-
-.container-hour text {
-  text-anchor: end;
+.container-time {
 }
 
-.container-clock-time-hour {
-  font-size: 70;
-  x: 61%;
-  y: 25%;
-  fill: white;
-}
-
-.container-clock-time-dot {
-  font-size: 70;
-  x: 64%;
-  y: 22%;
-  fill: white;
-}
-
-.container-minute text {
+.container-time text {
+  x: 100; 
+  text-length: 100;
   text-anchor: start;
 }
 
-.container-clock-time-minute {
+.container-clock-time {
   font-size: 70;
-  x: 67%;
+  x: 50%;
   y: 25%;
   fill: white;
 }
@@ -142,23 +119,23 @@
 
 .activity-values text {
   text-anchor: start;
-  font-size: 24;
+  font-size: 26;
 }
 
 .activity-values-top {
-  x: 40%;
+  x: 115;
   y: 130;
   fill: white;
 }
 
 .activity-values-center {
-  x: 40%;
+  x: 115;
   y: 160;
   fill: white;  
 }
 
 .activity-values-bottom {
-  x: 40%;
+  x: 115;
   y: 190;
   fill: white;
 }
@@ -193,29 +170,36 @@
 .icons-weather {
   width: 38;
   height: 30;
-  x: 13%;
-  y: 74%;
+  x: 62;
+  y: 222;
+}
+
+.icons-heart {
+  width: 20;
+  height: 16;
+  x: 153;
+  y: 255;
 }
 
 .container-icons-left {
   font-size: 22;
-  x: 14%;
-  y: 92%;
+  x: 50;
+  y: 276;
   fill: white;
   opacity: 0.6;
 }
 
 .container-icons-center{
-  font-size: 22;
-  x: 50%;
-  y: 251;
+  font-size: 24;
+  x: 130;
+  y: 260;
   fill: white;
 }
 
 .container-icons-bpm {
-  font-size: 18;
-  x: 50%;
-  y: 271;
+  font-size: 16;
+  x: 172;
+  y: 250;
 }
 
 .container-icons-right {
@@ -235,7 +219,7 @@
   height: 50;
 }
 
-#ARC-BAT {
+#BATTERY-ARC {
   fill: white;
   arc-width: 5;
   sweep-angle: 0;
@@ -255,9 +239,9 @@
   height: 65;
 }
 
-#ARC-CALS {
+#ACTIVITY-ARC-OUTSIDE {
   arc-width: 7;
-  opacity: 0.7;
+  opacity: 0.6;
   sweep-angle: 0;
   x: 20;
   y: 220;
@@ -265,9 +249,9 @@
   height: 65;
 }
 
-#ARC-DIST {
+#ACTIVITY-ARC-MIDDLE {
   arc-width: 7;
-  opacity: 0.7;
+  opacity: 0.6;
   sweep-angle: 0;
   x: 29;
   y: 229;
@@ -275,9 +259,9 @@
   height: 47;
 }
 
-#ARC-STEPS {
+#ACTIVITY-ARC-CENTER {
   arc-width: 7;
-  opacity: 0.7;
+  opacity: 0.6;
   sweep-angle: 0;
   x: 38;
   y: 238;

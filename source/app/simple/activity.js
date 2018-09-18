@@ -4,6 +4,7 @@ import { units } from "user-settings";
 
 var activityCallback, watchID;
 var ENABLED = true;
+var ACTIVITY = {};
 
 export function initialize(callback) {
   activityCallback = callback;
@@ -13,6 +14,12 @@ export function initialize(callback) {
 
 export function enableWidget(status) {
   ENABLED = status;
+}
+
+export function setActivity(top, middle, bottom) {
+  ACTIVITY['top'] = top;
+  ACTIVITY['middle'] = middle;
+  ACTIVITY['bottom'] = bottom;
 }
 
 function getSteps() {
@@ -25,22 +32,23 @@ function getSteps() {
 
 function getCalories() {
   let val = (today.adjusted.calories || 0);
+  let u = " kcal";
   return {
     raw: val,
-    pretty: val > 999 ? Math.floor(val/1000) + "'" + ("00"+(val%1000)).slice(-3) : val
+    pretty: val > 999 ? `${Math.floor(val/1000) + "'" + ("00"+(val%1000)).slice(-3)}${u}` : `${val}${u}`
   }
 }
 
 function getDistance() {
-  let val = (today.adjusted.distance || 0) / 1000;
-  let u = "km";
+  let val = (today.adjusted.distance || 0);
+  let u = " km";
   if(units.distance === "us") {
     val *= 0.621371;
-    u = "mi";
+    u = " mi";
   }
   return {
     raw: val,
-    pretty: `${val.toFixed(2)}${u}`
+    pretty: `${(val / 1000).toFixed(2)}${u}`
   }
 }
 
@@ -48,11 +56,11 @@ function getActiveMinutes() {
   let val = (today.adjusted.activeMinutes || 0);
   return {
     raw: val,
-    pretty: (val < 60 ? "" : Math.floor(val/60) + "h,") + ("0" + (val%60)).slice("-2") + "m"
+    pretty: (val < 60 ? "" : Math.floor(val/60) + "h ") + ("0" + (val%60)).slice("-2") + "m"
   }
 }
 
-function getElevationGain() {
+function getElevation() {
   let val = today.adjusted.elevationGain || 0;
   return {
     raw: val,
@@ -65,17 +73,23 @@ function getActivity(type, values) {
     return {
       steps: getSteps(),
       calories: getCalories(),
-      distance: getDistance()
+      distance: getDistance(),
+      activemin: getActiveMinutes(),
+      elevation: getElevation()
     }
   }else if (type == 'goal'){
-    let stepgoal = (values['steps']['raw'] / goals.steps * 360); //if (stepgoal > 360) { stepgoal = 360; }
-    let calgoal = (values['calories']['raw'] / goals.calories * 360); //if (calgoal > 360) { calgoal = 360; }
-    let distgoal = (values['distance']['raw'] * 1000 / goals.distance * 360); //if (distgoal > 360) { distgoal = 360; } 
+    let steps_goal = (values['steps']['raw'] / goals.steps * 360); //if (stepgoal > 360) { stepgoal = 360; }
+    let calories_goal = (values['calories']['raw'] / goals.calories * 360); //if (calgoal > 360) { calgoal = 360; }
+    let distance_goal = (values['distance']['raw'] / goals.distance * 360); //if (distgoal > 360) { distgoal = 360; } 
+    let activemin_goal = (values['activemin']['raw'] / goals.activeMinutes * 360); //if (distgoal > 360) { distgoal = 360; } 
+    let elevation_goal = (values['elevation']['raw'] / goals.elevationGain * 360); //if (distgoal > 360) { distgoal = 360; } 
 
     return {
-      steps: Math.floor(stepgoal),
-      calories: Math.floor(calgoal),
-      distance: Math.floor(distgoal),
+      steps: Math.floor(steps_goal),
+      calories: Math.floor(calories_goal),
+      distance: Math.floor(distance_goal),
+      activemin: Math.floor(activemin_goal),
+      elevation: Math.floor(elevation_goal)
     }
   }
 }
@@ -85,13 +99,13 @@ function getReading() {
   let arcs = getActivity('goal', values);
 
   activityCallback({
-    steps: values['steps']['pretty'],
-    calories: values['calories']['pretty'],
-    distance: values['distance']['pretty'],
+    val_top: values[ACTIVITY['top']]['pretty'],
+    val_middle: values[ACTIVITY['middle']]['pretty'],
+    val_bottom: values[ACTIVITY['bottom']]['pretty'],
     arc: ENABLED,
-    stepangle: arcs['steps'],
-    calsangle: arcs['calories'],
-    distangle: arcs['distance']
+    arc_outside: arcs[ACTIVITY['top']],
+    arc_middle: arcs[ACTIVITY['middle']],
+    arc_center: arcs[ACTIVITY['bottom']]
   });
 }
 
